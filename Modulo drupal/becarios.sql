@@ -1,3 +1,9 @@
+--
+--Agregar al pg_hba.conf
+--local   becarios        becarios                                md5
+--reiniciar postgresq
+-- # service postgresql restart
+
 drop database if exists becarios;
 drop role if exists becarios;
 
