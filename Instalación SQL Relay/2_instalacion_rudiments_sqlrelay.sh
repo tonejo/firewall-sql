@@ -61,3 +61,12 @@ make
 make install
 
 cd ..
+
+# ----------------------
+# Iniciar servicio
+# ----------------------
+
+export PATH=$PATH:/usr/local/firstworks/bin
+
+sqlr-start –id instanciapsql
+sqlr-start –id router
