@@ -20,7 +20,7 @@ sleep 15
 #Modificar archivos de configuración
 echo "Configuración del archivo postgresql.conf"
 echo "Busque la línea listen_addresses y verifique que su valor sea el siguiente:"
-echo "listen_addresses = 'localhost'"
+echo "listen_addresses = '*'"
 echo "Con el comando"
 echo "# vim /etc/postgresql/9.1/main/postgresql.conf"
 echo ""
