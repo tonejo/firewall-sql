@@ -1,0 +1,7 @@
+sudo apt-get install build-essential autoconf automake autotools-dev dh-make debhelper devscripts fakeroot xutils lintian pbuilder
+dh_make -e youremail@address -f ../sqlrelay_0.53.1-1_i386.tar.gz
+modificar el archivo de control
+dpkg-depcheck -d ./configure
+modificar archivo copyright
+modificar archivo changelog
+dpkg-buildpackage -rfakeroot

@@ -1,0 +1,41 @@
+
+sudo apt-get install build-essential autoconf automake autotools-dev dh-make debhelper devscripts fakeroot xutils lintian pbuilder
+
+
+apt-get install php5 php5-pgsql php5-dev 
+
+sudo apt-get install checkinstall
+checkinstall --fstrans=no
+
+
+#Instalación de rudiments
+
+
+
+tar -xzvf rudiments-0.48.tar.gz
+cd rudiments-0.48
+
+
+sudo mkdir /usr/local/firstworks
+mkdir /usr/local/firstworks/lib
+
+
+#Instalación de sqlrelay
+
+
+
+tar -xzvf sqlrelay-0.57.tar.gz
+
+
+
+
+### BEGIN INIT INFO 
+# Provides: scriptname 
+# Required-Start: $remote_fs $syslog 
+# Required-Stop: $remote_fs $syslog 
+# Default-Start: 2 3 4 5 
+# Default-Stop: 0 1 6 
+# Short-Description: Start daemon at boot time 
+# Description: Enable service provided by daemon. 
+### END INIT INFO
+

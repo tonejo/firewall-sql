@@ -1,0 +1,3 @@
+gpg --gen-key
+gpg -a --output ~/.gnupg/ismael.gpg --export ismael
+gpg --import ~/.gnupg/ismael.gpg
