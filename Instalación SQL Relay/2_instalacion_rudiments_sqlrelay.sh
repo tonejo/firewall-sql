@@ -31,11 +31,11 @@ apt-get install php5 php5-pgsql php5-dev
 #Instalación de rudiments
 # ----------------------
 
-wget "http://downloads.sourceforge.net/project/rudiments/rudiments/0.48/rudiments-0.48.tar.gz"
+wget “http://downloads.sourceforge.net/project/rudiments/rudiments/0.42/rudiments-0.42.tar.gz?r=http%3A%2F%2Fsqlrelay.sourceforge.net%2Fdownload2.html&ts=1379719434&use_mirror=softlayer-dal”
 
-tar -xzvf rudiments-0.48.tar.gz
+tar xvzf rudiments-0.42.tar.gz
 
-cd rudiments-0.48
+cd rudiments-0.42
 
 ./configure
 make
@@ -49,11 +49,11 @@ cd ..
 # ----------------------
 
 
-wget "http://downloads.sourceforge.net/project/sqlrelay/sqlrelay/0.57/sqlrelay-0.57.tar.gz"
+wget “http://downloads.sourceforge.net/project/sqlrelay/sqlrelay/0.51/sqlrelay-0.51.tar.gz?r=&ts=1379719092&use_mirror=softlayer-dal”
 
-tar -xzvf sqlrelay-0.57.tar.gz
+tar xvzf sqlrelay-0.51.tar.gz
 
-cd sqlrelay-0.57
+cd sqlrelay-0.51
 
 ./configure
 make
